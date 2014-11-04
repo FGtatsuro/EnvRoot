@@ -21,6 +21,7 @@ brew install ctags
 brew install global --with-exuberant-ctags
 brew install zsh
 brew install z
+brew install tmux
 
 # custom
 brew tap FGtatsuro/homebrew-custom
@@ -37,6 +38,7 @@ brew tap FGtatsuro/customcask
 brew install brew-cask
 brew cask install iterm2
 brew cask install quicksilver
+brew cask install karabiner
 brew cask install skype
 brew cask install hipchat
 brew cask install google-chrome

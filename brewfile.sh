@@ -2,8 +2,6 @@ brew update
 
 brew tap homebrew/versions
 brew install vim --with-lua --with-perl --with-python3 --without-python
-# https://github.com/tomaz/appledoc/issues/435
-brew install appledoc
 brew install the_silver_searcher
 brew install maven
 brew install ant
@@ -23,8 +21,7 @@ brew install ctags
 brew install global --with-exuberant-ctags
 brew install zsh
 brew install z
-brew install icu4c
-brew install jenkins
+brew install tmux
 
 # custom
 brew tap FGtatsuro/homebrew-custom
@@ -41,6 +38,7 @@ brew tap FGtatsuro/customcask
 brew install brew-cask
 brew cask install iterm2
 brew cask install quicksilver
+brew cask install karabiner
 brew cask install skype
 brew cask install hipchat
 brew cask install google-chrome

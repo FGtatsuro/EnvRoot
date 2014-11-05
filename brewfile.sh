@@ -22,6 +22,7 @@ brew install global --with-exuberant-ctags
 brew install zsh
 brew install z
 brew install tmux
+brew install qt
 
 # custom
 brew tap FGtatsuro/homebrew-custom

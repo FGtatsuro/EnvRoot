@@ -22,13 +22,17 @@ brew install global --with-exuberant-ctags
 brew install zsh
 brew install z
 brew install tmux
-brew install qt
 
 # custom
 brew tap FGtatsuro/homebrew-custom
 brew install --HEAD python
 brew install --HEAD python3
 brew install --HEAD git-flow-noff
+
+# GUI
+brew install qt
+brew install qt5
+brew install pyqt5
 
 # To avoid update process of this reporitory runs every time
 # cd /usr/local/Library/Taps/phinze/homebrew-cask

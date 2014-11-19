@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-gem install homesick
+gem install homesick --no-ri --no-rdoc
 CASTLE=dotfiles
 (cd ~/; yes | homesick clone FGtatsuro/$CASTLE)
 (cd ~/; homesick symlink $CASTLE)
@@ -36,3 +36,17 @@ pyenv global system
 rbenv global 2.1.4
 ndenv global v0.10.25
 jenv global 1.8
+
+# gem
+for GEM in homesick cocoapods compass
+do
+  gem install $GEM --no-ri --no-rdoc
+done
+rbenv rehash
+
+# npm
+for NODE_MODULE in yo grunt-cli bower generator-angular
+do
+  npm install -g $NODE_MODULE
+done
+ndenv rehash

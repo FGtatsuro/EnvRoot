@@ -24,6 +24,7 @@ brew install z
 brew install tmux
 brew install go
 brew install heroku-toolbelt
+brew install chromedriver
 
 # custom
 brew tap FGtatsuro/homebrew-custom

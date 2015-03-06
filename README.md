@@ -13,7 +13,7 @@ Root project of my environment
 Install Homebrew/Homebrew Cask packages.
 
 ```bash
-$ ./brewfile.sh init.sh
+$ ./brewfile.sh
 ```
 
 Run init script for

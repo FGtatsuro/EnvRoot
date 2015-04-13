@@ -19,7 +19,7 @@ brew install gradle
 brew install jq
 brew install ctags
 brew install global --with-exuberant-ctags
-brew install zsh
+brew install --disable-etcdir zsh
 brew install z
 brew install tmux
 brew install go

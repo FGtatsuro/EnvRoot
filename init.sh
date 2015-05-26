@@ -11,9 +11,9 @@ do
   yes | anyenv install $ENV
 done
 
-for PYVER in 2.7.8 3.4.2
+for PYVER in 2.6.9 2.7.9 3.3.6 3.4.2
 do
-  yes | pyenv install $PYVER && pyenv rehash
+  yes | env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $PYVER && pyenv rehash
 done
 
 for RBVER in 2.1.4

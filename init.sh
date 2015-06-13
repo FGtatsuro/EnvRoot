@@ -11,17 +11,17 @@ do
   yes | anyenv install $ENV
 done
 
-for PYVER in 2.7.8 3.4.2
+for PYVER in 2.6.9 2.7.9 3.3.6 3.4.2
 do
-  yes | pyenv install $PYVER && pyenv rehash
+  yes | env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install $PYVER && pyenv rehash
 done
 
-for RBVER in 2.1.4
+for RBVER in 2.2.2
 do
   yes | rbenv install $RBVER && rbenv rehash
 done
 
-for NDVER in v0.10.25
+for NDVER in v0.12.4
 do
   yes | ndenv install $NDVER && ndenv rehash
 done
@@ -33,8 +33,8 @@ done
 
 # Virtualenv python is used.
 pyenv global system
-rbenv global 2.1.4
-ndenv global v0.10.25
+rbenv global 2.2.2
+ndenv global v0.12.4
 jenv global 1.8
 
 # gem

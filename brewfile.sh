@@ -1,6 +1,7 @@
 brew update
 
 brew tap homebrew/versions
+brew tap supistar/homebrew-customs
 brew install vim --with-lua --with-perl --with-python3 --without-python
 brew install the_silver_searcher
 brew install maven
@@ -25,6 +26,7 @@ brew install tmux
 brew install go
 brew install heroku-toolbelt
 brew install chromedriver
+brew install ccmenu
 
 # custom
 brew tap FGtatsuro/homebrew-custom

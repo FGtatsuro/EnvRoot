@@ -27,6 +27,7 @@ brew install go
 brew install heroku-toolbelt
 brew install chromedriver
 brew install ccmenu
+brew install pandoc
 
 # custom
 brew tap FGtatsuro/homebrew-custom

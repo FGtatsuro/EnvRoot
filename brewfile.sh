@@ -2,7 +2,7 @@ brew update
 
 brew tap homebrew/versions
 brew tap supistar/homebrew-customs
-brew install vim --with-lua --with-perl --with-python3 --without-python
+brew tap macvim-dev/macvim
 brew install the_silver_searcher
 brew install maven
 brew install ant
@@ -28,11 +28,12 @@ brew install heroku-toolbelt
 brew install chromedriver
 brew install ccmenu
 brew install pandoc
+brew install python
+brew install python3
+brew install --HEAD macvim-dev/macvim/macvim
 
 # custom
 brew tap FGtatsuro/homebrew-custom
-brew install --HEAD python
-brew install --HEAD python3
 brew install --HEAD git-flow-noff
 
 # GUI

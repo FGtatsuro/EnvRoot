@@ -7,6 +7,7 @@ brew install the_silver_searcher
 brew install maven
 brew install android-sdk
 brew install git
+brew install git-secrets
 brew install hub
 brew install mercurial
 brew install wget

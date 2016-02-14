@@ -49,6 +49,7 @@ brew cask install firefox
 brew cask install dropbox
 brew cask install virtualbox
 brew cask install vagrant
+brew cask install dockertoolbox
 brew cask install evernote
 brew cask install genymotion
 brew cask install skitch

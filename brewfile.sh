@@ -31,6 +31,9 @@ brew install pandoc
 brew install python
 brew install python3
 brew install --HEAD macvim-dev/macvim/macvim
+# Use latest OpenSSL
+brew install openssl
+brew link openssl --force
 
 # GUI
 brew install qt

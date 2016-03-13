@@ -11,6 +11,7 @@ brew install git-secrets
 brew install hub
 brew install mercurial
 brew install wget
+brew install gawk
 # I must create link after bundler is installed(`gem install bundler`)
 # ln -s /usr/local/Cellar/ruby/2.1.2/bin/bundle /usr/local/bin/bundle
 brew install ruby

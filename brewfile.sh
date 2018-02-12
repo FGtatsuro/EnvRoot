@@ -26,7 +26,10 @@ brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 
 brew install --disable-etcdir zsh
 brew install z
+
 brew install tmux
+brew install reattach-to-user-namespace
+
 brew install go
 brew install heroku-toolbelt
 brew install chromedriver

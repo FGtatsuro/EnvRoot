@@ -50,3 +50,7 @@ do
   npm install -g $NODE_MODULE
 done
 ndenv rehash
+
+# gdb
+# Certificate 'gdb-cert' is required. https://qiita.com/takahashim/items/204ffa698afe09bd4e28
+sudo codesign -s gdb-cert /usr/local/bin/gdb

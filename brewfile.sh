@@ -19,7 +19,11 @@ brew install --devel groovy
 brew install sqlite3
 brew install gradle
 brew install jq
+
+# For Neovim
+brew install ninja libtool automake cmake pkg-config gettext
 brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+
 brew install --disable-etcdir zsh
 brew install z
 brew install tmux
